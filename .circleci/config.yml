@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
     # Use the same Docker base as the project
-      - image: circleci/python@0.2.1
+      - image: python:3.7-alpine3.11
       
     working_directory: ~/repo
 
